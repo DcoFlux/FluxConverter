@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Flux Converter MP4</title>
+   <style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #0F2027;
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+
+.formulario {
+	width: 400px;
+	background: #24303c;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+.formulario .btn {
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+}
+
+      </style>
+   </head>
+   <body>
+   <div class = formulario>
+      <h2>
+         Video unavaialable
+      </h2>
+      <form action="{{url_for('home')}}">
+         <input class = "btn" id="btn" type = "submit" value="Volver" name = "Volver"/>
+      </form>
+   </div>
+   </body>
+</html>
